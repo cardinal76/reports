@@ -31,4 +31,9 @@ public class Report1Controller {
     report.anagrafica();
   }
 
+  @GetMapping("/")
+  public String getTest() {
+    return "Hello World!";
+  }
+
 }
